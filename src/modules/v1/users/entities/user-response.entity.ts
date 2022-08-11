@@ -4,7 +4,7 @@ import { ValidateNested } from 'class-validator';
 import { RolesEnum } from '@decorators/roles.decorator';
 
 export class UserResponseEntity {
-  id: number = 0;
+  id: string = '';
 
   roles: RolesEnum[] = [RolesEnum.USER];
 
